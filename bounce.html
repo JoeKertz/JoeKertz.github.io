@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAGE 1</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>Document</title>
 </head>
 <style>
-   body {
+    body {
         font: 1em sans-serif;
         text-align: center;
     }
@@ -21,9 +20,9 @@
     .box {
         align-self: flex-end;
         animation-duration: 2s;
-        animation-iteration-count: 3;
+        animation-iteration-count: infinite;
         background-color: #F44336;
-        height: 52px;
+        height: 0;
         margin: 0 auto 0 auto;
         transform-origin: bottom;
         width: 100%;
@@ -31,18 +30,18 @@
     .bounce-2 {
         animation-name: bounce-2;
         animation-timing-function: ease;
-        animation-fill-mode: forwards;
     }
     @keyframes bounce-2 {
         0%   { transform: translateY(0); }
         50%  { transform: translateY(-100px); }
         100% { transform: translateY(0); }
     }
+
 </style>
-<h1>CURRENTLY UNDER CONSTRUCTION</h1>
 <body>
+    <h3>Change the Timing Function to Ease</h3>
 <div class="stage">
-    <div class="box bounce-2 btn btn-default"><a href="index.html">Back Button</a></div>
+    <a href="index.html"><div class="box bounce-2">Back Button</div></a>
 </div>
 </body>
 </html>
