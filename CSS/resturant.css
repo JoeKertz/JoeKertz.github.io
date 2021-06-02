@@ -17,6 +17,9 @@ ul{
 li{
     float:left;
 }
+ul a:hover{
+    background-color: red;
+}
 li a{
     display:block;
     color:white;
@@ -48,3 +51,19 @@ li a{
     width:20vw;
     
 }
+.pagediv{
+    background-color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    background-color: red;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
