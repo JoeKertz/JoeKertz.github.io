@@ -40,11 +40,11 @@ li a{
     
 }
 p1{
-    font-size: 95%;
+    font-size: 80%;
 }
 .logotext{
     font-family: chineseFont;
-    font-size: 7.5vh;
+    font-size: 8vw;
     position: relative;
     top:-20vh;
     left:0vw;
