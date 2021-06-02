@@ -6,8 +6,9 @@
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/png" href="/favicon.ico">
-   <link rel="icon" type="image/png" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+   <link rel="icon" type="image/png" href="images/favicon-16x16.png">
+   <script src="js/CV.js"></script>
 </head>
 <style>
     
@@ -17,8 +18,8 @@
     <a href="page1.html">Page1</a>
     <div id="summary">
         <h1 id="header">Joseph S Kertz</h1>
-        <link rel='stylesheet' href="cvstyle.css"x
-        <div id="profilephoto"><img id="profilePic" src="/389031_10201204496783028_1914547040_n.jpg"></div>
+        <link rel='stylesheet' href="cvstyle.css">
+        <div id="profilephoto"><img id="profilePic" src="images/389031_10201204496783028_1914547040_n.jpg"></div>
         <h4>Front End Web Developer</h4>
         <ul>
             <div class="container">
@@ -50,23 +51,23 @@
         <div id="grid" class="row">
             <div id="grid" class="column">
                 <p id="text">Technical Documentation Page</p>
-                <a href="https://codepen.io/joe-kertz/full/WNozwOj" target="_blank"><img id="project" src="/technicalDocumentationPageIcon.PNG"></a>
+                <a href="https://codepen.io/joe-kertz/full/WNozwOj" target="_blank"><img id="project" src="images/technicalDocumentationPageIcon.PNG"></a>
             </div>
             <div id="grid" class="column">
                 <p id="text">Simple Game</p>
-                <a href="https://codepen.io/joe-kertz/full/yLgdWLb" target="_blank"><img id="project" src="/SimpleGameIcon.PNG"></a>
+                <a href="https://codepen.io/joe-kertz/full/yLgdWLb" target="_blank"><img id="project" src="images/SimpleGameIcon.PNG"></a>
             </div>
             <div id="grid" class="column">
                 <p id="text">Digital Clock</p>
-                <a href="https://codepen.io/joe-kertz/full/KKajLbQ" target="_blank"><img id="project" src="/DigitalClockIcon.PNG"></a>
+                <a href="https://codepen.io/joe-kertz/full/KKajLbQ" target="_blank"><img id="project" src="images/DigitalClockIcon.PNG"></a>
             </div>
             <div id="grid" class="column">
                 <p id="text">Product Landing Page</p>
-                <a href="https://codepen.io/joe-kertz/full/PobQzKa" target="_blank"><img id="project" src="/productLandingPageIcon.PNG"></a>
+                <a href="https://codepen.io/joe-kertz/full/PobQzKa" target="_blank"><img id="project" src="images/productLandingPageIcon.PNG"></a>
             </div>
             <div id="grid" class="column">
                 <p id="text">Analog Clock</p>
-                <a href="https://codepen.io/joe-kertz/full/LYxKwQd" target="_blank"><img id="project" src="/AnalogClockIcon.PNG"></a>
+                <a href="https://codepen.io/joe-kertz/full/LYxKwQd" target="_blank"><img id="project" src="images/AnalogClockIcon.PNG"></a>
             </div>
             <div id="grid" class="column">
                 &lt;sixth project &gt;
@@ -78,49 +79,6 @@
         <p class="certification"><a href="https://www.freecodecamp.org/certification/joe_kertz/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms and Data Structures</a></p>
    
 </div>
- 
-<script>
-$( ".experiences" ).click(function() {
-  $( ".experience" ).toggle( "fast" );
-});
-$( ".educations" ).click(function() {
-    $( ".education" ).toggle( "fast" );
-});
-
-
-//START BUTTON TWIST
-$(".educations").on('click',function(){
-    $("#educationButton").toggleClass("active");
-});
-
-$(".experiences").on('click',function(){
-    $("#experienceButton").toggleClass("active");
-});
-
-$(".skills").on('click',function(){
-    $("#skillButton").toggleClass("active");
-});
-
-$(".certifications").on('click',function(){
-    $("#certificationsButton").toggleClass("active");
-});
-
-$(".software").on('click',function(){
-    $("#projectsButton").toggleClass("active");
-});
-//END BUTTON TWIST
-
-
-$( ".skills" ).click(function() {
-    $( ".skill" ).toggle( "fast" );
-});
-$( ".software" ).click(function() {
-    $( ".column" ).toggle( "fast" );
-});
-$( ".certifications" ).click(function() {
-    $( ".certification" ).toggle( "fast" );
-});
-</script>
  
 </body>
 </html>
