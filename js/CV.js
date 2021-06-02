@@ -1,3 +1,6 @@
+jQuery(document).ready(function($) {
+  // Code using $ as usual goes here.
+
 $( ".experiences" ).click(function() {
     $( ".experience" ).toggle( "fast" );
   });
@@ -38,3 +41,4 @@ $( ".experiences" ).click(function() {
   $( ".certifications" ).click(function() {
       $( ".certification" ).toggle( "fast" );
   });
+});
