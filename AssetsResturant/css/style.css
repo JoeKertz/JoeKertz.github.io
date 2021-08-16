@@ -429,7 +429,7 @@ button:focus{
     bottom: -100%;
     right: 0;
     height: 100%;
-    background: rgba(207, 166, 113, 0.9);
+    background: rgba(207, 113, 113, 0.9);
     padding: 12px 12px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -540,7 +540,7 @@ button:focus{
 }
 
 #reviews .carousel-control-next{
-	background: #d0a772;
+	background: #d07272;
 	color: #ffffff;
 	display: block;
 	position: absolute;
